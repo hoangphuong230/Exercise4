@@ -6,11 +6,27 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello GitHub");
+        }
+
+
+        public static bool IsOdd(int n)
+        {
+            if (n % 2 == 0) 
+            return false;
+            return true;   
+        }
+
+
+       public static bool IsEven (int n)
+        {
+            if (n % 2 == 0)
+                return true;
+            return false;
         }
     }
 }
